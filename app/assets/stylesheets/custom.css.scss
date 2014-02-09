@@ -1,0 +1,108 @@
+@import "bootstrap";
+
+.center {
+  text-align: center;
+}
+
+.interface {
+
+  .has-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .max-width {
+    max-width: 960px;
+    margin: auto;
+    position: relative;
+  }
+  h2 {
+    margin-bottom: 6rem;
+    color: #5e5e5e;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  h2, h3, h4, p {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.1;
+  }
+  h3, p {
+    color: #5b5b5b;
+  }
+  .thumbnail {
+    border: none;
+  }
+
+  .stepone {
+    height: 800px;
+    background-image: url('https://dl.dropboxusercontent.com/s/q72fos982hdfb87/websitebackground.jpg');
+    background-position: center;
+    h2 {
+      color: #191919;
+    }
+    #q2 {
+      height: 45px;
+      width: 300px;
+      margin: 5rem auto;
+    }
+  }
+
+  .steptwo {
+    height: 800px;
+    background-image: url('https://dl.dropboxusercontent.com/s/a2zv8keyiu813sw/cloth_alike.png')
+  }
+
+  .steptwo .thumbnail > img {
+      margin-bottom: 15px;
+    }
+
+  .stepthree {
+    background-color: #ffc966;
+    height: 800px;
+    .thumbnail {
+      padding: 10px;
+      border-radius: 8px;
+    }
+  }
+
+  .stepfour {
+    height: 800px;
+    h4 {
+      font-size: 22px;
+      font-weight: 400;
+      color: #5e5e5e;
+    }
+    .thumbnail {
+      background-color: #ffc966;
+      border-radius: 6px;
+    }
+  }
+
+  .stepfive {
+    height: 800px;
+    background-color: #ffc966;
+    h4 {
+      font-size: 25px;
+      font-weight: 500;
+      margin-top: 40px;
+      color: #5e5e5e;
+    }
+    textarea.form-control {
+      height: 200px;
+    }
+  }
+
+  .stepsix {
+    height: 800px;
+    background-color: #5e5ea5;
+    h2 {
+      color: #fff;
+    }
+  }
+
+  .stepseven {
+    background-image: url('https://dl.dropboxusercontent.com/s/a2zv8keyiu813sw/cloth_alike.png')
+  }
+}
